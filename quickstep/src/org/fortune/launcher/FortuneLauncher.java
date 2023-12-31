@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2020 Paranoid Android
+ * Copyright (C) 2023 FortuneOS
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package co.aospa.launcher;
+package org.fortune.launcher;
 
 import android.app.smartspace.SmartspaceTarget;
 import android.os.Bundle;
 
-import co.aospa.launcher.ParanoidLauncherModelDelegate.SmartspaceItem;
+import org.fortune.launcher.FortuneLauncherModelDelegate.SmartspaceItem;
 
 import com.android.launcher3.model.BgDataModel;
 import com.android.launcher3.qsb.LauncherUnlockAnimationController;
@@ -32,7 +32,7 @@ import com.google.android.systemui.smartspace.BcSmartspaceDataProvider;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class ParanoidLauncher extends QuickstepLauncher {
+public class FortuneLauncher extends QuickstepLauncher {
 
     private BcSmartspaceDataProvider mSmartspacePlugin = new BcSmartspaceDataProvider();
     private LauncherUnlockAnimationController mUnlockAnimationController =

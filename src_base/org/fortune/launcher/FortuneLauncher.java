@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2020 Paranoid Android
+ * Copyright (C) 2023 FortuneOS
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package co.aospa.launcher;
+package org.fortune.launcher;
 
 import com.android.launcher3.Launcher;
 
-public class ParanoidLauncher extends Launcher {
+public class FortuneLauncher extends Launcher {
 
 }
